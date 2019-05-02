@@ -1,0 +1,773 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F18855 ]
+[d frameptr 6 ]
+"88 /Users/joshuacidoni/Desktop/Car Parking Sensor/Car_Sensor.X/mcc_generated_files/tmr6.c
+[e E11723 . `uc
+TMR6_ROP_STARTS_TMRON 0
+TMR6_ROP_STARTS_TMRON_ERSHIGH 1
+TMR6_ROP_STARTS_TMRON_ERSLOW 2
+TMR6_ROP_RESETS_ERSBOTHEDGE 3
+TMR6_ROP_RESETS_ERSRISINGEDGE 4
+TMR6_ROP_RESETS_ERSFALLINGEDGE 5
+TMR6_ROP_RESETS_ERSLOW 6
+TMR6_ROP_RESETS_ERSHIGH 7
+TMR6_OS_STARTS_TMRON 8
+TMR6_OS_STARTS_ERSRISINGEDGE 9
+TMR6_OS_STARTS_ERSFALLINGEDGE 10
+TMR6_OS_STARTS_ERSBOTHEDGE 11
+TMR6_OS_STARTS_ERSFIRSTRISINGEDGE 12
+TMR6_OS_STARTS_ERSFIRSTFALLINGEDGE 13
+TMR6_OS_STARTS_ERSRISINGEDGEDETECT 14
+TMR6_OS_STARTS_ERSFALLINGEDGEDETECT 15
+TMR6_OS_STARTS_TMRON_ERSHIGH 22
+TMR6_OS_STARTS_TMRON_ERSLOW 23
+TMR6_MS_STARTS_TMRON_ERSRISINGEDGEDETECT 17
+TMR6_MS_STARTS_TMRON_ERSFALLINGEDGEDETECT 18
+TMR6_MS_STARTS_TMRON_ERSBOTHEDGE 19
+]
+"94
+[e E11746 . `uc
+TMR6_T6INPPS 0
+TMR6_T2POSTSCALED 1
+TMR6_T4POSTSCALED 2
+TMR6_RESERVED 3
+TMR6_CCP1_OUT 4
+TMR6_CCP2_OUT 5
+TMR6_CCP3_OUT 6
+TMR6_CCP4_OUT 7
+TMR6_CCP5_OUT 8
+TMR6_PWM6_OUT 9
+TMR6_PWM7_OUT 10
+TMR6_C1_OUT_SYNC 11
+TMR6_C2_OUT_SYNC 12
+TMR6_ZCD_OUTPUT 13
+TMR6_CLC1_OUT 14
+TMR6_CLC2_OUT 15
+TMR6_CLC3_OUT 16
+TMR6_CLC4_OUT 17
+]
+"88 /Users/joshuacidoni/Desktop/Car Parking Sensor/Car_Sensor.X/mcc_generated_files/tmr4.c
+[e E11723 . `uc
+TMR4_ROP_STARTS_TMRON 0
+TMR4_ROP_STARTS_TMRON_ERSHIGH 1
+TMR4_ROP_STARTS_TMRON_ERSLOW 2
+TMR4_ROP_RESETS_ERSBOTHEDGE 3
+TMR4_ROP_RESETS_ERSRISINGEDGE 4
+TMR4_ROP_RESETS_ERSFALLINGEDGE 5
+TMR4_ROP_RESETS_ERSLOW 6
+TMR4_ROP_RESETS_ERSHIGH 7
+TMR4_OS_STARTS_TMRON 8
+TMR4_OS_STARTS_ERSRISINGEDGE 9
+TMR4_OS_STARTS_ERSFALLINGEDGE 10
+TMR4_OS_STARTS_ERSBOTHEDGE 11
+TMR4_OS_STARTS_ERSFIRSTRISINGEDGE 12
+TMR4_OS_STARTS_ERSFIRSTFALLINGEDGE 13
+TMR4_OS_STARTS_ERSRISINGEDGEDETECT 14
+TMR4_OS_STARTS_ERSFALLINGEDGEDETECT 15
+TMR4_OS_STARTS_TMRON_ERSHIGH 22
+TMR4_OS_STARTS_TMRON_ERSLOW 23
+TMR4_MS_STARTS_TMRON_ERSRISINGEDGEDETECT 17
+TMR4_MS_STARTS_TMRON_ERSFALLINGEDGEDETECT 18
+TMR4_MS_STARTS_TMRON_ERSBOTHEDGE 19
+]
+"94
+[e E11746 . `uc
+TMR4_T4INPPS 0
+TMR4_T2POSTSCALED 1
+TMR4_RESERVED 2
+TMR4_T6POSTSCALED 3
+TMR4_CCP1_OUT 4
+TMR4_CCP2_OUT 5
+TMR4_CCP3_OUT 6
+TMR4_CCP4_OUT 7
+TMR4_CCP5_OUT 8
+TMR4_PWM6_OUT 9
+TMR4_PWM7_OUT 10
+TMR4_C1_OUT_SYNC 11
+TMR4_C2_OUT_SYNC 12
+TMR4_ZCD_OUTPUT 13
+TMR4_CLC1_OUT 14
+TMR4_CLC2_OUT 15
+TMR4_CLC3_OUT 16
+TMR4_CLC4_OUT 17
+]
+"5 /Applications/microchip/xc8/v2.05/pic/sources/c99/common/lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"10 /Applications/microchip/xc8/v2.05/pic/sources/c99/common/sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"15 /Applications/microchip/xc8/v2.05/pic/sources/c99/common/Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"4 /Applications/microchip/xc8/v2.05/pic/sources/c99/common/Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 /Applications/microchip/xc8/v2.05/pic/sources/c99/pic/__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"50 /Users/joshuacidoni/Desktop/Car Parking Sensor/Car_Sensor.X/main.c
+[v _send_pulse send_pulse `(v  1 e 1 0 ]
+"56
+[v _NeoPixel_Stream NeoPixel_Stream `(v  1 e 1 0 ]
+"70
+[v _trigger_danger trigger_danger `(v  1 e 1 0 ]
+"76
+[v _trigger_warning trigger_warning `(v  1 e 1 0 ]
+"93
+[v _trigger_clear trigger_clear `(v  1 e 1 0 ]
+"99
+[v _main main `(v  1 e 1 0 ]
+"50 /Users/joshuacidoni/Desktop/Car Parking Sensor/Car_Sensor.X/mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"62
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+"76
+[v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
+"55 /Users/joshuacidoni/Desktop/Car Parking Sensor/Car_Sensor.X/mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"58 /Users/joshuacidoni/Desktop/Car Parking Sensor/Car_Sensor.X/mcc_generated_files/pwm7.c
+[v _PWM7_Initialize PWM7_Initialize `(v  1 e 1 0 ]
+"74
+[v _PWM7_LoadDutyValue PWM7_LoadDutyValue `(v  1 e 1 0 ]
+"65 /Users/joshuacidoni/Desktop/Car Parking Sensor/Car_Sensor.X/mcc_generated_files/spi1.c
+[v _SPI1_Initialize SPI1_Initialize `(v  1 e 1 0 ]
+"79
+[v _SPI1_Exchange8bit SPI1_Exchange8bit `(uc  1 e 1 0 ]
+"63 /Users/joshuacidoni/Desktop/Car Parking Sensor/Car_Sensor.X/mcc_generated_files/tmr1.c
+[v _TMR1_Initialize TMR1_Initialize `(v  1 e 1 0 ]
+"104
+[v _TMR1_ReadTimer TMR1_ReadTimer `(us  1 e 2 0 ]
+"120
+[v _TMR1_WriteTimer TMR1_WriteTimer `(v  1 e 1 0 ]
+"147
+[v _TMR1_StartSinglePulseAcquisition TMR1_StartSinglePulseAcquisition `(v  1 e 1 0 ]
+"62 /Users/joshuacidoni/Desktop/Car Parking Sensor/Car_Sensor.X/mcc_generated_files/tmr4.c
+[v _TMR4_Initialize TMR4_Initialize `(v  1 e 1 0 ]
+"100
+[v _TMR4_Start TMR4_Start `(v  1 e 1 0 ]
+"111
+[v _TMR4_Stop TMR4_Stop `(v  1 e 1 0 ]
+"122
+[v _TMR4_Counter8BitGet TMR4_Counter8BitGet `(uc  1 e 1 0 ]
+"136
+[v _TMR4_Counter8BitSet TMR4_Counter8BitSet `(v  1 e 1 0 ]
+"147
+[v _TMR4_Period8BitSet TMR4_Period8BitSet `(v  1 e 1 0 ]
+"62 /Users/joshuacidoni/Desktop/Car Parking Sensor/Car_Sensor.X/mcc_generated_files/tmr6.c
+[v _TMR6_Initialize TMR6_Initialize `(v  1 e 1 0 ]
+"100
+[v _TMR6_Start TMR6_Start `(v  1 e 1 0 ]
+"111
+[v _TMR6_Stop TMR6_Stop `(v  1 e 1 0 ]
+"122
+[v _TMR6_Counter8BitGet TMR6_Counter8BitGet `(uc  1 e 1 0 ]
+"136
+[v _TMR6_Counter8BitSet TMR6_Counter8BitSet `(v  1 e 1 0 ]
+"147
+[v _TMR6_Period8BitSet TMR6_Period8BitSet `(v  1 e 1 0 ]
+"591 /Applications/microchip/xc8/v2.05/pic/include/pic16f18855.h
+[v _TRISA TRISA `VEuc  1 e 1 @17 ]
+"653
+[v _TRISB TRISB `VEuc  1 e 1 @18 ]
+"715
+[v _TRISC TRISC `VEuc  1 e 1 @19 ]
+"777
+[v _LATA LATA `VEuc  1 e 1 @22 ]
+"839
+[v _LATB LATB `VEuc  1 e 1 @23 ]
+"901
+[v _LATC LATC `VEuc  1 e 1 @24 ]
+[s S1024 . 1 `uc 1 LATC0 1 0 :1:0 
+`uc 1 LATC1 1 0 :1:1 
+`uc 1 LATC2 1 0 :1:2 
+`uc 1 LATC3 1 0 :1:3 
+`uc 1 LATC4 1 0 :1:4 
+`uc 1 LATC5 1 0 :1:5 
+`uc 1 LATC6 1 0 :1:6 
+`uc 1 LATC7 1 0 :1:7 
+]
+"918
+[u S1033 . 1 `S1024 1 . 1 0 ]
+[v _LATCbits LATCbits `VES1033  1 e 1 @24 ]
+"4348
+[v _SSP1BUF SSP1BUF `VEuc  1 e 1 @396 ]
+"4368
+[v _SSP1ADD SSP1ADD `VEuc  1 e 1 @397 ]
+"4558
+[v _SSP1STAT SSP1STAT `VEuc  1 e 1 @399 ]
+[s S672 . 1 `uc 1 BF 1 0 :1:0 
+`uc 1 UA 1 0 :1:1 
+`uc 1 R_nW 1 0 :1:2 
+`uc 1 S 1 0 :1:3 
+`uc 1 P 1 0 :1:4 
+`uc 1 D_nA 1 0 :1:5 
+`uc 1 CKE 1 0 :1:6 
+`uc 1 SMP 1 0 :1:7 
+]
+"4667
+[s S681 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R_W 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 D_A 1 0 :1:5 
+]
+[s S686 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nW 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 nA 1 0 :1:5 
+]
+[s S691 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nWRITE 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 nADDRESS 1 0 :1:5 
+]
+[s S696 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 READ_WRITE 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 DATA_ADDRESS 1 0 :1:5 
+]
+[s S701 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 I2C_READ 1 0 :1:2 
+`uc 1 I2C_START 1 0 :1:3 
+`uc 1 I2C_STOP 1 0 :1:4 
+`uc 1 I2C_DAT 1 0 :1:5 
+]
+[s S707 . 1 `uc 1 BF1 1 0 :1:0 
+`uc 1 UA1 1 0 :1:1 
+`uc 1 R 1 0 :1:2 
+`uc 1 START 1 0 :1:3 
+`uc 1 STOP 1 0 :1:4 
+`uc 1 D 1 0 :1:5 
+`uc 1 CKE1 1 0 :1:6 
+`uc 1 SMP1 1 0 :1:7 
+]
+[s S716 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 RW 1 0 :1:2 
+`uc 1 START1 1 0 :1:3 
+`uc 1 STOP1 1 0 :1:4 
+`uc 1 DA 1 0 :1:5 
+]
+[s S722 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 RW1 1 0 :1:2 
+`uc 1 I2C_START1 1 0 :1:3 
+`uc 1 I2C_STOP2 1 0 :1:4 
+`uc 1 DA1 1 0 :1:5 
+]
+[s S728 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 I2C_READ1 1 0 :1:2 
+`uc 1 S2 1 0 :1:3 
+`uc 1 P2 1 0 :1:4 
+`uc 1 DATA_ADDRESS1 1 0 :1:5 
+]
+[s S734 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 READ_WRITE1 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 D_A1 1 0 :1:5 
+]
+[s S739 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R_W1 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 D_nA1 1 0 :1:5 
+]
+[s S744 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R_nW1 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 I2C_DAT1 1 0 :1:5 
+]
+[s S749 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nW2 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 nA2 1 0 :1:5 
+]
+[s S754 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nWRITE1 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 nADDRESS1 1 0 :1:5 
+]
+[u S759 . 1 `S672 1 . 1 0 `S681 1 . 1 0 `S686 1 . 1 0 `S691 1 . 1 0 `S696 1 . 1 0 `S701 1 . 1 0 `S707 1 . 1 0 `S716 1 . 1 0 `S722 1 . 1 0 `S728 1 . 1 0 `S734 1 . 1 0 `S739 1 . 1 0 `S744 1 . 1 0 `S749 1 . 1 0 `S754 1 . 1 0 ]
+[v _SSP1STATbits SSP1STATbits `VES759  1 e 1 @399 ]
+"4922
+[v _SSP1CON1 SSP1CON1 `VEuc  1 e 1 @400 ]
+[s S626 . 1 `uc 1 SSPM 1 0 :4:0 
+`uc 1 CKP 1 0 :1:4 
+`uc 1 SSPEN 1 0 :1:5 
+`uc 1 SSPOV 1 0 :1:6 
+`uc 1 WCOL 1 0 :1:7 
+]
+"4952
+[s S632 . 1 `uc 1 SSPM0 1 0 :1:0 
+`uc 1 SSPM1 1 0 :1:1 
+`uc 1 SSPM2 1 0 :1:2 
+`uc 1 SSPM3 1 0 :1:3 
+]
+[s S637 . 1 `uc 1 SSPM01 1 0 :1:0 
+`uc 1 SSPM11 1 0 :1:1 
+`uc 1 SSPM21 1 0 :1:2 
+`uc 1 SSPM31 1 0 :1:3 
+`uc 1 CKP1 1 0 :1:4 
+`uc 1 SSPEN1 1 0 :1:5 
+`uc 1 SSPOV1 1 0 :1:6 
+`uc 1 WCOL1 1 0 :1:7 
+]
+[u S646 . 1 `S626 1 . 1 0 `S632 1 . 1 0 `S637 1 . 1 0 ]
+[v _SSP1CON1bits SSP1CON1bits `VES646  1 e 1 @400 ]
+"6241
+[v _TMR1L TMR1L `VEuc  1 e 1 @524 ]
+"6411
+[v _TMR1H TMR1H `VEuc  1 e 1 @525 ]
+"6531
+[v _T1CON T1CON `VEuc  1 e 1 @526 ]
+[s S905 . 1 `uc 1 ON 1 0 :1:0 
+`uc 1 RD16 1 0 :1:1 
+`uc 1 nSYNC 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 CKPS 1 0 :2:4 
+]
+"6562
+[s S911 . 1 `uc 1 TMR1ON 1 0 :1:0 
+`uc 1 T1RD16 1 0 :1:1 
+`uc 1 nT1SYNC 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 T1CKPS0 1 0 :1:4 
+`uc 1 T1CKPS1 1 0 :1:5 
+]
+[s S918 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 CKPS0 1 0 :1:4 
+`uc 1 CKPS1 1 0 :1:5 
+]
+[s S922 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 RD161 1 0 :1:1 
+]
+[u S925 . 1 `S905 1 . 1 0 `S911 1 . 1 0 `S918 1 . 1 0 `S922 1 . 1 0 ]
+[v _T1CONbits T1CONbits `VES925  1 e 1 @526 ]
+"6627
+[v _T1GCON T1GCON `VEuc  1 e 1 @527 ]
+[s S951 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 GVAL 1 0 :1:2 
+`uc 1 GGO_nDONE 1 0 :1:3 
+`uc 1 GSPM 1 0 :1:4 
+`uc 1 GTM 1 0 :1:5 
+`uc 1 GPOL 1 0 :1:6 
+`uc 1 GE 1 0 :1:7 
+]
+"6661
+[s S959 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 T1GVAL 1 0 :1:2 
+`uc 1 T1GGO_nDONE 1 0 :1:3 
+`uc 1 T1GSPM 1 0 :1:4 
+`uc 1 T1GTM 1 0 :1:5 
+`uc 1 T1GPOL 1 0 :1:6 
+`uc 1 T1GE 1 0 :1:7 
+]
+[s S967 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 T1GGO 1 0 :1:3 
+]
+[u S970 . 1 `S951 1 . 1 0 `S959 1 . 1 0 `S967 1 . 1 0 ]
+[v _T1GCONbits T1GCONbits `VES970  1 e 1 @527 ]
+"6823
+[v _T1GATE T1GATE `VEuc  1 e 1 @528 ]
+"6989
+[v _T1CLK T1CLK `VEuc  1 e 1 @529 ]
+[s S524 . 1 `uc 1 C5TSEL 1 0 :2:0 
+`uc 1 P6TSEL 1 0 :2:2 
+`uc 1 P7TSEL 1 0 :2:4 
+]
+"9033
+[s S528 . 1 `uc 1 C5TSEL0 1 0 :1:0 
+`uc 1 C5TSEL1 1 0 :1:1 
+`uc 1 P6TSEL0 1 0 :1:2 
+`uc 1 P6TSEL1 1 0 :1:3 
+`uc 1 P7TSEL0 1 0 :1:4 
+`uc 1 P7TSEL1 1 0 :1:5 
+]
+[u S535 . 1 `S524 1 . 1 0 `S528 1 . 1 0 ]
+[v _CCPTMRS1bits CCPTMRS1bits `VES535  1 e 1 @543 ]
+"9683
+[v _T4TMR T4TMR `VEuc  1 e 1 @658 ]
+"9688
+[v _TMR4 TMR4 `VEuc  1 e 1 @658 ]
+"9721
+[v _T4PR T4PR `VEuc  1 e 1 @659 ]
+"9726
+[v _PR4 PR4 `VEuc  1 e 1 @659 ]
+"9759
+[v _T4CON T4CON `VEuc  1 e 1 @660 ]
+[s S174 . 1 `uc 1 OUTPS 1 0 :4:0 
+`uc 1 CKPS 1 0 :3:4 
+`uc 1 ON 1 0 :1:7 
+]
+"9795
+[s S427 . 1 `uc 1 T4OUTPS 1 0 :4:0 
+`uc 1 T4CKPS 1 0 :3:4 
+`uc 1 T4ON 1 0 :1:7 
+]
+[s S431 . 1 `uc 1 T4OUTPS0 1 0 :1:0 
+`uc 1 T4OUTPS1 1 0 :1:1 
+`uc 1 T4OUTPS2 1 0 :1:2 
+`uc 1 T4OUTPS3 1 0 :1:3 
+`uc 1 T4CKPS0 1 0 :1:4 
+`uc 1 T4CKPS1 1 0 :1:5 
+`uc 1 T4CKPS2 1 0 :1:6 
+]
+[s S439 . 1 `uc 1 OUTPS0 1 0 :1:0 
+`uc 1 OUTPS1 1 0 :1:1 
+`uc 1 OUTPS2 1 0 :1:2 
+`uc 1 OUTPS3 1 0 :1:3 
+`uc 1 CKPS0 1 0 :1:4 
+`uc 1 CKPS1 1 0 :1:5 
+`uc 1 CKPS2 1 0 :1:6 
+`uc 1 TMR4ON 1 0 :1:7 
+]
+[u S448 . 1 `S174 1 . 1 0 `S427 1 . 1 0 `S431 1 . 1 0 `S439 1 . 1 0 ]
+[v _T4CONbits T4CONbits `VES448  1 e 1 @660 ]
+"9905
+[v _T4HLT T4HLT `VEuc  1 e 1 @661 ]
+[s S67 . 1 `uc 1 MODE 1 0 :5:0 
+`uc 1 CKSYNC 1 0 :1:5 
+`uc 1 CKPOL 1 0 :1:6 
+`uc 1 PSYNC 1 0 :1:7 
+]
+"9938
+[s S72 . 1 `uc 1 MODE0 1 0 :1:0 
+`uc 1 MODE1 1 0 :1:1 
+`uc 1 MODE2 1 0 :1:2 
+`uc 1 MODE3 1 0 :1:3 
+`uc 1 MODE4 1 0 :1:4 
+]
+[s S327 . 1 `uc 1 T4MODE 1 0 :5:0 
+`uc 1 T4CKSYNC 1 0 :1:5 
+`uc 1 T4CKPOL 1 0 :1:6 
+`uc 1 T4PSYNC 1 0 :1:7 
+]
+[s S332 . 1 `uc 1 T4MODE0 1 0 :1:0 
+`uc 1 T4MODE1 1 0 :1:1 
+`uc 1 T4MODE2 1 0 :1:2 
+`uc 1 T4MODE3 1 0 :1:3 
+`uc 1 T4MODE4 1 0 :1:4 
+]
+[u S338 . 1 `S67 1 . 1 0 `S72 1 . 1 0 `S327 1 . 1 0 `S332 1 . 1 0 ]
+[v _T4HLTbits T4HLTbits `VES338  1 e 1 @661 ]
+"10033
+[v _T4CLKCON T4CLKCON `VEuc  1 e 1 @662 ]
+"10191
+[v _T4RST T4RST `VEuc  1 e 1 @663 ]
+[s S136 . 1 `uc 1 RSEL 1 0 :5:0 
+]
+"10218
+[s S138 . 1 `uc 1 RSEL0 1 0 :1:0 
+`uc 1 RSEL1 1 0 :1:1 
+`uc 1 RSEL2 1 0 :1:2 
+`uc 1 RSEL3 1 0 :1:3 
+`uc 1 RSEL4 1 0 :1:4 
+]
+[s S393 . 1 `uc 1 T4RSEL 1 0 :5:0 
+]
+[s S395 . 1 `uc 1 T4RSEL0 1 0 :1:0 
+`uc 1 T4RSEL1 1 0 :1:1 
+`uc 1 T4RSEL2 1 0 :1:2 
+`uc 1 T4RSEL3 1 0 :1:3 
+`uc 1 T4RSEL4 1 0 :1:4 
+]
+[u S401 . 1 `S136 1 . 1 0 `S138 1 . 1 0 `S393 1 . 1 0 `S395 1 . 1 0 ]
+[v _T4RSTbits T4RSTbits `VES401  1 e 1 @663 ]
+"10283
+[v _T6TMR T6TMR `VEuc  1 e 1 @664 ]
+"10288
+[v _TMR6 TMR6 `VEuc  1 e 1 @664 ]
+"10321
+[v _T6PR T6PR `VEuc  1 e 1 @665 ]
+"10326
+[v _PR6 PR6 `VEuc  1 e 1 @665 ]
+"10359
+[v _T6CON T6CON `VEuc  1 e 1 @666 ]
+"10395
+[s S178 . 1 `uc 1 T6OUTPS 1 0 :4:0 
+`uc 1 T6CKPS 1 0 :3:4 
+`uc 1 T6ON 1 0 :1:7 
+]
+[s S182 . 1 `uc 1 T6OUTPS0 1 0 :1:0 
+`uc 1 T6OUTPS1 1 0 :1:1 
+`uc 1 T6OUTPS2 1 0 :1:2 
+`uc 1 T6OUTPS3 1 0 :1:3 
+`uc 1 T6CKPS0 1 0 :1:4 
+`uc 1 T6CKPS1 1 0 :1:5 
+`uc 1 T6CKPS2 1 0 :1:6 
+]
+[s S190 . 1 `uc 1 OUTPS0 1 0 :1:0 
+`uc 1 OUTPS1 1 0 :1:1 
+`uc 1 OUTPS2 1 0 :1:2 
+`uc 1 OUTPS3 1 0 :1:3 
+`uc 1 CKPS0 1 0 :1:4 
+`uc 1 CKPS1 1 0 :1:5 
+`uc 1 CKPS2 1 0 :1:6 
+`uc 1 TMR6ON 1 0 :1:7 
+]
+[u S199 . 1 `S174 1 . 1 0 `S178 1 . 1 0 `S182 1 . 1 0 `S190 1 . 1 0 ]
+[v _T6CONbits T6CONbits `VES199  1 e 1 @666 ]
+"10505
+[v _T6HLT T6HLT `VEuc  1 e 1 @667 ]
+"10538
+[s S78 . 1 `uc 1 T6MODE 1 0 :5:0 
+`uc 1 T6CKSYNC 1 0 :1:5 
+`uc 1 T6CKPOL 1 0 :1:6 
+`uc 1 T6PSYNC 1 0 :1:7 
+]
+[s S83 . 1 `uc 1 T6MODE0 1 0 :1:0 
+`uc 1 T6MODE1 1 0 :1:1 
+`uc 1 T6MODE2 1 0 :1:2 
+`uc 1 T6MODE3 1 0 :1:3 
+`uc 1 T6MODE4 1 0 :1:4 
+]
+[u S89 . 1 `S67 1 . 1 0 `S72 1 . 1 0 `S78 1 . 1 0 `S83 1 . 1 0 ]
+[v _T6HLTbits T6HLTbits `VES89  1 e 1 @667 ]
+"10633
+[v _T6CLKCON T6CLKCON `VEuc  1 e 1 @668 ]
+"10791
+[v _T6RST T6RST `VEuc  1 e 1 @669 ]
+"10818
+[s S144 . 1 `uc 1 T6RSEL 1 0 :5:0 
+]
+[s S146 . 1 `uc 1 T6RSEL0 1 0 :1:0 
+`uc 1 T6RSEL1 1 0 :1:1 
+`uc 1 T6RSEL2 1 0 :1:2 
+`uc 1 T6RSEL3 1 0 :1:3 
+`uc 1 T6RSEL4 1 0 :1:4 
+]
+[u S152 . 1 `S136 1 . 1 0 `S138 1 . 1 0 `S144 1 . 1 0 `S146 1 . 1 0 ]
+[v _T6RSTbits T6RSTbits `VES152  1 e 1 @669 ]
+"12489
+[v _PWM7DCL PWM7DCL `VEuc  1 e 1 @912 ]
+"12555
+[v _PWM7DCH PWM7DCH `VEuc  1 e 1 @913 ]
+"12725
+[v _PWM7CON PWM7CON `VEuc  1 e 1 @914 ]
+[s S27 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 TMR3IF 1 0 :1:2 
+`uc 1 TMR4IF 1 0 :1:3 
+`uc 1 TMR5IF 1 0 :1:4 
+`uc 1 TMR6IF 1 0 :1:5 
+]
+"21315
+[u S34 . 1 `S27 1 . 1 0 ]
+[v _PIR4bits PIR4bits `VES34  1 e 1 @1808 ]
+"21989
+[v _PMD0 PMD0 `VEuc  1 e 1 @1942 ]
+"22046
+[v _PMD1 PMD1 `VEuc  1 e 1 @1943 ]
+"22117
+[v _PMD2 PMD2 `VEuc  1 e 1 @1944 ]
+"22162
+[v _PMD3 PMD3 `VEuc  1 e 1 @1945 ]
+"22218
+[v _PMD4 PMD4 `VEuc  1 e 1 @1946 ]
+"22269
+[v _PMD5 PMD5 `VEuc  1 e 1 @1947 ]
+"23340
+[v _OSCCON1 OSCCON1 `VEuc  1 e 1 @2189 ]
+"23480
+[v _OSCCON3 OSCCON3 `VEuc  1 e 1 @2191 ]
+"23577
+[v _OSCEN OSCEN `VEuc  1 e 1 @2193 ]
+"23628
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @2194 ]
+"23686
+[v _OSCFRQ OSCFRQ `VEuc  1 e 1 @2195 ]
+"29943
+[v _T1GPPS T1GPPS `VEuc  1 e 1 @3731 ]
+"31391
+[v _SSP1CLKPPS SSP1CLKPPS `VEuc  1 e 1 @3781 ]
+"31443
+[v _SSP1DATPPS SSP1DATPPS `VEuc  1 e 1 @3782 ]
+"32457
+[v _RB5PPS RB5PPS `VEuc  1 e 1 @3869 ]
+"32757
+[v _RC3PPS RC3PPS `VEuc  1 e 1 @3875 ]
+"32957
+[v _RC7PPS RC7PPS `VEuc  1 e 1 @3879 ]
+"33007
+[v _ANSELA ANSELA `VEuc  1 e 1 @3896 ]
+"33069
+[v _WPUA WPUA `VEuc  1 e 1 @3897 ]
+"33131
+[v _ODCONA ODCONA `VEuc  1 e 1 @3898 ]
+"33193
+[v _SLRCONA SLRCONA `VEuc  1 e 1 @3899 ]
+"33627
+[v _ANSELB ANSELB `VEuc  1 e 1 @3907 ]
+"33689
+[v _WPUB WPUB `VEuc  1 e 1 @3908 ]
+"33751
+[v _ODCONB ODCONB `VEuc  1 e 1 @3909 ]
+"33813
+[v _SLRCONB SLRCONB `VEuc  1 e 1 @3910 ]
+"34247
+[v _ANSELC ANSELC `VEuc  1 e 1 @3918 ]
+"34309
+[v _WPUC WPUC `VEuc  1 e 1 @3919 ]
+"34371
+[v _ODCONC ODCONC `VEuc  1 e 1 @3920 ]
+"34433
+[v _SLRCONC SLRCONC `VEuc  1 e 1 @3921 ]
+"34867
+[v _WPUE WPUE `VEuc  1 e 1 @3941 ]
+"42434
+"42434
+[v _TMR1GIF TMR1GIF `VEb  1 e 0 @14472 ]
+"57 /Users/joshuacidoni/Desktop/Car Parking Sensor/Car_Sensor.X/mcc_generated_files/tmr1.c
+[v _timer1ReloadVal timer1ReloadVal `VEus  1 e 2 0 ]
+"99 /Users/joshuacidoni/Desktop/Car Parking Sensor/Car_Sensor.X/main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"108
+[v main@distance distance `us  1 a 2 10 ]
+"110
+[v main@yellow_warning yellow_warning `i  1 a 2 8 ]
+"133
+} 0
+"76
+[v _trigger_warning trigger_warning `(v  1 e 1 0 ]
+{
+[v trigger_warning@yellow_warning yellow_warning `*.4i  1 a 1 wreg ]
+"87
+[v trigger_warning@i i `i  1 a 2 3 ]
+"79
+[v trigger_warning@color color `[3]uc  1 a 3 0 ]
+"76
+[v trigger_warning@yellow_warning yellow_warning `*.4i  1 a 1 wreg ]
+[v trigger_warning@distance distance `us  1 p 2 10 ]
+"78
+[v trigger_warning@F11890 F11890 `[3]uc  1 s 3 F11890 ]
+[v trigger_warning@yellow_warning yellow_warning `*.4i  1 a 1 5 ]
+"91
+} 0
+"15 /Applications/microchip/xc8/v2.05/pic/sources/c99/common/Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 4 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 0 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 2 ]
+"53
+} 0
+"70 /Users/joshuacidoni/Desktop/Car Parking Sensor/Car_Sensor.X/main.c
+[v _trigger_danger trigger_danger `(v  1 e 1 0 ]
+{
+"72
+[v trigger_danger@color color `[3]uc  1 a 3 10 ]
+"71
+[v trigger_danger@F11885 F11885 `[3]uc  1 s 3 F11885 ]
+"74
+} 0
+"93
+[v _trigger_clear trigger_clear `(v  1 e 1 0 ]
+{
+"95
+[v trigger_clear@color color `[3]uc  1 a 3 10 ]
+"94
+[v trigger_clear@F11894 F11894 `[3]uc  1 s 3 F11894 ]
+"97
+} 0
+"74 /Users/joshuacidoni/Desktop/Car Parking Sensor/Car_Sensor.X/mcc_generated_files/pwm7.c
+[v _PWM7_LoadDutyValue PWM7_LoadDutyValue `(v  1 e 1 0 ]
+{
+[v PWM7_LoadDutyValue@dutyValue dutyValue `us  1 p 2 6 ]
+"81
+} 0
+"56 /Users/joshuacidoni/Desktop/Car Parking Sensor/Car_Sensor.X/main.c
+[v _NeoPixel_Stream NeoPixel_Stream `(v  1 e 1 0 ]
+{
+[v NeoPixel_Stream@p p `*.4uc  1 a 1 wreg ]
+"58
+[v NeoPixel_Stream@bitCount bitCount `uc  1 a 1 5 ]
+[v NeoPixel_Stream@data data `uc  1 a 1 4 ]
+"56
+[v NeoPixel_Stream@p p `*.4uc  1 a 1 wreg ]
+[v NeoPixel_Stream@count count `uc  1 p 1 0 ]
+[v NeoPixel_Stream@p p `*.4uc  1 a 1 6 ]
+"68
+} 0
+"50
+[v _send_pulse send_pulse `(v  1 e 1 0 ]
+{
+"54
+} 0
+"5 /Applications/microchip/xc8/v2.05/pic/sources/c99/common/lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+{
+"10
+[v ___lwdiv@quotient quotient `ui  1 a 2 4 ]
+"11
+[v ___lwdiv@counter counter `uc  1 a 1 6 ]
+"5
+[v ___lwdiv@divisor divisor `ui  1 p 2 0 ]
+[v ___lwdiv@dividend dividend `ui  1 p 2 2 ]
+"30
+} 0
+"120 /Users/joshuacidoni/Desktop/Car Parking Sensor/Car_Sensor.X/mcc_generated_files/tmr1.c
+[v _TMR1_WriteTimer TMR1_WriteTimer `(v  1 e 1 0 ]
+{
+[v TMR1_WriteTimer@timerVal timerVal `us  1 p 2 0 ]
+"140
+} 0
+"147
+[v _TMR1_StartSinglePulseAcquisition TMR1_StartSinglePulseAcquisition `(v  1 e 1 0 ]
+{
+"150
+} 0
+"104
+[v _TMR1_ReadTimer TMR1_ReadTimer `(us  1 e 2 0 ]
+{
+"106
+[v TMR1_ReadTimer@readVal readVal `us  1 a 2 7 ]
+"108
+[v TMR1_ReadTimer@readValLow readValLow `uc  1 a 1 10 ]
+"107
+[v TMR1_ReadTimer@readValHigh readValHigh `uc  1 a 1 9 ]
+"118
+} 0
+"50 /Users/joshuacidoni/Desktop/Car Parking Sensor/Car_Sensor.X/mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"60
+} 0
+"62 /Users/joshuacidoni/Desktop/Car Parking Sensor/Car_Sensor.X/mcc_generated_files/tmr6.c
+[v _TMR6_Initialize TMR6_Initialize `(v  1 e 1 0 ]
+{
+"86
+} 0
+"62 /Users/joshuacidoni/Desktop/Car Parking Sensor/Car_Sensor.X/mcc_generated_files/tmr4.c
+[v _TMR4_Initialize TMR4_Initialize `(v  1 e 1 0 ]
+{
+"86
+} 0
+"63 /Users/joshuacidoni/Desktop/Car Parking Sensor/Car_Sensor.X/mcc_generated_files/tmr1.c
+[v _TMR1_Initialize TMR1_Initialize `(v  1 e 1 0 ]
+{
+"90
+} 0
+"65 /Users/joshuacidoni/Desktop/Car Parking Sensor/Car_Sensor.X/mcc_generated_files/spi1.c
+[v _SPI1_Initialize SPI1_Initialize `(v  1 e 1 0 ]
+{
+"77
+} 0
+"58 /Users/joshuacidoni/Desktop/Car Parking Sensor/Car_Sensor.X/mcc_generated_files/pwm7.c
+[v _PWM7_Initialize PWM7_Initialize `(v  1 e 1 0 ]
+{
+"72
+} 0
+"76 /Users/joshuacidoni/Desktop/Car Parking Sensor/Car_Sensor.X/mcc_generated_files/mcc.c
+[v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
+{
+"90
+} 0
+"55 /Users/joshuacidoni/Desktop/Car Parking Sensor/Car_Sensor.X/mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"113
+} 0
+"62 /Users/joshuacidoni/Desktop/Car Parking Sensor/Car_Sensor.X/mcc_generated_files/mcc.c
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+{
+"74
+} 0
